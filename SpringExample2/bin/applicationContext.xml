@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="si" class="dao.SIexample">
+        <property name="p" value="50000" ></property>
+        <property name="r" value="2" ></property>
+        <property name="t" value="2" ></property>
+    </bean>
+</beans>
